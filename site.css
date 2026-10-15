@@ -209,23 +209,23 @@ img {
 }
 
 .photo-main {
-  width: 75%;
-  height: 470px;
-  right: 1.5rem;
+  width: 120%;
+  height: 570px;
+  right: -16rem;
   top: 0;
 }
 
 .photo-top {
-  width: 48%;
-  height: 190px;
-  left: 0;
+  width: 68%;
+  height: 290px;
+  left: -62rem;
   top: 52px;
 }
 
 .photo-bottom {
   width: 42%;
   height: 230px;
-  left: 2.2rem;
+  left: -3.2rem;
   bottom: 0;
 }
 
@@ -250,6 +250,7 @@ img {
   box-shadow: 0 8px 24px rgba(67, 42, 32, 0.04);
 }
 
+
 .icon {
   display: inline-grid;
   place-items: center;
@@ -260,6 +261,7 @@ img {
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
+
 
 .features h3,
 .card-body h3,
@@ -289,6 +291,11 @@ img {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.6rem;
+}
+
+.cards .cake-card:hover{
+  transition: 2s;
+  transform: scale(1.60);
 }
 
 .cake-card {
